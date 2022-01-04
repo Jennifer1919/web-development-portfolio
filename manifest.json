@@ -1,0 +1,36 @@
+{
+    "projects" : [
+        {
+            "name": "tip-calculator",
+            "imagesrc":"./icons-images/calculator app screen.PNG",
+            "title": "Tip Calculator",
+            "text":" This tip calculator is....",
+            "link":"https://jennifer1919.github.io/tip-calculator-app-main/"
+
+        },
+        {
+            "name": "faq",
+            "imagesrc":"./icons-images/faq sreen.PNG",
+            "title": "FAQ Page",
+            "text":" This tip calculator is....",
+            "link":"https://jennifer1919.github.io/faq-accordion-card-main/"
+
+        },
+        {
+            "name": "sunnyside",
+            "imagesrc":"./icons-images/sunnyside landing page screen.PNG",
+            "title": "Sunnyside Landing Page",
+            "text":" This tip calculator is....",
+            "link":"https://jennifer1919.github.io/sunnyside-agency-landing-page/"
+
+        },
+        {
+            "name": "on-sunny-days",
+            "imagesrc":"./icons-images/on sunny days screen.PNG",
+            "title": "On Sunny Days",
+            "text":" This tip calculator is....",
+            "link":"https://jennifer1919.github.io/on-sunny-days/"
+
+        }
+    ]
+}

@@ -1,0 +1,49 @@
+* {
+  margin: 0px 0px;
+  padding: 0px 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 16px;
+  font-family: 'Barlow', sans-serif;
+}
+
+body {
+  background-color: #232946;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-items: center;
+  text-align: center;
+}
+
+body main section {
+  padding: 25px 25px;
+}
+
+body main section h1 {
+  color: white;
+  font-size: 1.5em;
+  font-family: 'Rowdies', cursive;
+  margin: 20px;
+}
+
+body main section p {
+  color: #B8C1EC;
+  line-height: 2;
+}
+
+body main section#about-me, body main section#contact-me {
+  background-color: #B8C1EC;
+}
+
+body main section#about-me h1, body main section#about-me p, body main section#contact-me h1, body main section#contact-me p {
+  color: #232946;
+}
+/*# sourceMappingURL=style.css.map */
