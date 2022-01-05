@@ -189,7 +189,7 @@ body main section#contact-me form button img {
   body main section#home img#menu-icon {
     display: none;
   }
-  body main section#home nav.menu-desktop {
+  body main section#home nav {
     margin-top: 25px;
     margin-left: 60%;
     display: -webkit-box;
@@ -203,7 +203,7 @@ body main section#contact-me form button img {
         -ms-flex-align: right;
             align-items: right;
   }
-  body main section#home nav.menu-desktop ul {
+  body main section#home nav ul {
     list-style: none;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -216,7 +216,7 @@ body main section#contact-me form button img {
         -ms-flex-pack: justify;
             justify-content: space-between;
   }
-  body main section#home nav.menu-desktop ul a {
+  body main section#home nav ul a {
     text-decoration: none;
     font-family: 'Rowdies', cursive;
     color: white;
@@ -293,6 +293,18 @@ body main section#contact-me form button img {
     width: 45%;
     max-width: 150px;
     height: 100px;
+  }
+  body main section#portfolio section#porfolio-containter {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 50% 50%;
+        grid-template-columns: 50% 50%;
+    gap: 10px;
+    padding: 0px 0px;
+    margin-top: 50px;
+  }
+  body main section#contact-me input {
+    max-width: 550px;
   }
 }
 /*# sourceMappingURL=style.css.map */
