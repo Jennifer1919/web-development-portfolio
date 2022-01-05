@@ -28,23 +28,30 @@
                     <li><a href="#contact-me">Contact Me</a></li>
                 </ul>
             </nav>
-            <p>Hi! I'm</p>
-            <h1>Jennifer Zevounou</h1>
-            <p>I am a freelance Web Developper based in France</p>
-            <img src="icons-images/Group 1icon-programmer-medical.svg" alt="A medical researcher and a programmer">
+            <div>
+             <p>Hi! I'm <br>
+            <span id="jennifer">Jennifer Zevounou</span> <br>
+            I am a freelance Web Developper based in France</p> 
+            <img id="characters" src="icons-images/Group 1icon-programmer-medical.svg" alt="A medical researcher and a programmer">  
+            </div>
+            
+            
         </section>
 
         <section id="about-me">
             <h1>About Me</h1>
             <p>Hi ! My name is Jennifer and I am a freelance
                 Front End Developer as well as a second year
-                biomedical student at the University of Paris</p>
-            <p>I am a self-taught Web Developer who is
+                biomedical student at the University of Paris<br>
+            I am a self-taught Web Developer who is
                 comfortable with languages such as HTML, CSS
                 and JavaScript.</p>
-            <p class="coding-language">HTML5</p>
-            <p class="coding-language">CSS/SCSS</p>
-            <p class="coding-language">JavaScript/JSON</p>
+            <div>
+                <p class="coding-language">HTML5</p>
+                <p class="coding-language">CSS/ <br>SCSS</p>
+                <p class="coding-language">JavaScript/ <br>JSON</p>   
+            </div>
+            
         </section>
 
         <section id="portfolio">
@@ -67,9 +74,9 @@
                 </ul>
             </article>
             <form action="https://formsubmit.co/your@email.com" method="POST">
-                <input type="text" name="name" required>
-                <input type="email" name="email" required>
-                <button type="submit">Send</button>
+                <input type="email" name="email" placeholder="Enter your email" required>
+                <input type="text" name="message"  placeholder="Type in your message"required>
+                <button type="submit"><img src="icons-images/arrow_circle_right_black_24dp.svg" alt=""></button>
            </form>
         </section>
     </main>
