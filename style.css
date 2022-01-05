@@ -52,6 +52,7 @@ body main section#home img#menu-icon {
   width: 40px;
   position: relative;
   left: 50%;
+  cursor: pointer;
 }
 
 body main section#home img#characters {
