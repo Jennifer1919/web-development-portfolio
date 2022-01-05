@@ -111,6 +111,7 @@ body main section#about-me div .coding-language {
   border: 2px solid #232946;
   padding: 10px;
   height: 100%;
+  color: white;
 }
 
 body main section#porfolio-containter {
@@ -182,6 +183,9 @@ body main section#contact-me form button img {
 }
 
 @media (min-width: 800px) {
+  body main section {
+    padding: 50px 100px;
+  }
   body main section#home img#menu-icon {
     display: none;
   }
@@ -235,6 +239,7 @@ body main section#contact-me form button img {
     -ms-grid-column: 1;
     -ms-grid-column-span: 1;
     grid-column: 1/2;
+    width: 100%;
   }
   body main section#home div p span#jennifer {
     margin: 0px;
@@ -244,6 +249,50 @@ body main section#contact-me form button img {
     -ms-grid-column-span: 1;
     grid-column: 2/3;
     width: 350px;
+  }
+  body main section#about-me {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 50% 50%;
+        grid-template-columns: 50% 50%;
+        grid-template-areas: "div aboutme" "div description" "div .";
+  }
+  body main section#about-me h1 {
+    -ms-grid-row: 1;
+    -ms-grid-column: 2;
+    grid-area: aboutme;
+    text-align: right;
+  }
+  body main section#about-me p {
+    -ms-grid-row: 2;
+    -ms-grid-column: 2;
+    grid-area: description;
+    text-align: right;
+  }
+  body main section#about-me div {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 3;
+    -ms-grid-column: 1;
+    grid-area: div;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    max-width: 350px;
+  }
+  body main section#about-me div .coding-language {
+    text-align: center;
+    width: 45%;
+    max-width: 150px;
+    height: 100px;
   }
 }
 /*# sourceMappingURL=style.css.map */
