@@ -4,7 +4,7 @@
             "name": "tip-calculator",
             "imagesrc":"./icons-images/calculator app screen.PNG",
             "title": "Tip Calculator",
-            "text":" This tip calculator is....",
+            "text":"As its name suggests it, this app allows you to calculate tips.(Challenge by Frontend Mentor)",
             "link":"https://jennifer1919.github.io/tip-calculator-app-main/"
 
         },
@@ -12,7 +12,7 @@
             "name": "faq",
             "imagesrc":"./icons-images/faq sreen.PNG",
             "title": "FAQ Page",
-            "text":" This tip calculator is....",
+            "text":" A simple accordion landing page.(Challenge by Frontend Mentor)",
             "link":"https://jennifer1919.github.io/faq-accordion-card-main/"
 
         },
@@ -20,7 +20,7 @@
             "name": "sunnyside",
             "imagesrc":"./icons-images/sunnyside landing page screen.PNG",
             "title": "Sunnyside Landing Page",
-            "text":" This tip calculator is....",
+            "text":"A landing page for a fictional compagny.(Challenge by Frontend Mentor)",
             "link":"https://jennifer1919.github.io/sunnyside-agency-landing-page/"
 
         },
@@ -28,7 +28,7 @@
             "name": "on-sunny-days",
             "imagesrc":"./icons-images/on sunny days screen.PNG",
             "title": "On Sunny Days",
-            "text":" This tip calculator is....",
+            "text":" On Sunny Days is a website which I created as part as the GardenHacks hackathon of 2021 organised by MLH. It gives you advices depending on the weather at you location.",
             "link":"https://jennifer1919.github.io/on-sunny-days/"
 
         }
