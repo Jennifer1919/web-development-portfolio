@@ -24,6 +24,7 @@ window.onload = function(){
         var link = document.createElement("a"); //8° create a link for each project
         link.innerHTML = "View site"; 
         link.href = data["projects"][i]["link"]; //9° set the link's href
+        link.setAttribute("target", "blank");
 
         container.appendChild(div);// places the div in the container
         div.appendChild(title);//add the title in the div
